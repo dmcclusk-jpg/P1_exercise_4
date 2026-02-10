@@ -1,0 +1,67 @@
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+
+.circle1 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle2 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle3 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle4 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle5 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle6 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle7 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle8 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
+}
+
+.circle9 {
+	width: 400px;
+	height: 400px;
+	position: fixed;
+	color: red;
