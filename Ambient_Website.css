@@ -1,67 +1,126 @@
+* {
+	background-color: beige;
+	filter: blur(1rem);
+}
+
 .container {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.container1 {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+@keyframes fade1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+div1 {
+  animation-name: fade1;
+  animation-duration: 4s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .circle1 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
+	width: 300px;
+	height: 300px;
 	color: red;
+	background-color: red;
+	border-radius: 50%;
+}
+
+.container2 {
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+@keyframes fade2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+div2 {
+  animation-name: fade2;
+  animation-duration: 4s;
+  animation-delay: 9s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .circle2 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+
+.container3 {
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	flex-direction:row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+@keyframes fade3 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.01;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+div3 {
+  animation-name: fade3;
+  animation-duration: 4s;
+  animation-delay: 13s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .circle3 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
+	width: 300px;
+	height: 300px;
+	background-color: green;
+	border-radius: 50%;
 }
 
-.circle4 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
-}
 
-.circle5 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
-}
-
-.circle6 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
-}
-
-.circle7 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
-}
-
-.circle8 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
-}
-
-.circle9 {
-	width: 400px;
-	height: 400px;
-	position: fixed;
-	color: red;
